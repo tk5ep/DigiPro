@@ -1,7 +1,8 @@
 # DigiPro
 LoRa APRS digipeater, low cost, low power based on Arduino pro-mini
 
-Based on an initial work of VE2YAG Rémi Bilodeau. With his kind permission, I kept the name and have reworked some parts of his work, mainly the digipeater functions.
+Based on an initial work of VE2YAG Rémi Bilodeau. With his kind permission, I kept the name and parts of the software, mainly the digipeater functions.
+I've added some functions, like battery charging, SHT31 sensor, etc...
 
 This is a low cost, low power APRS LoRa digipeater using an Arduino pro-mini.
 It can also serve as a small WX station using a SHT31 temperature and humidity sensor.
@@ -14,5 +15,3 @@ It can also serve as a small WX station using a SHT31 temperature and humidity s
  - Additional telemetry using DS18B20 or SHT31 for internal/external temperature and humidity.
  - Battery voltage monitoring and sleep mode under a certain voltage (depends of battery type)
  - PCB are low cost with or without solar panel charging.
-
-   
